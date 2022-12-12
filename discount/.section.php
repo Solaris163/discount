@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Скидка";
+$arDirProperties = array(
+
+);
+?>

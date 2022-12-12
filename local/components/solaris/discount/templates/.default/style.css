@@ -1,0 +1,65 @@
+.discount-page-container {
+    width: 600px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 50px;
+}
+.discount-page-container:last-child {
+    margin-bottom: 0;
+}
+.get-discount-section {
+    margin-bottom: 50px;
+}
+.discount-page-interface-element {
+    border-radius: 5px;
+    padding: 0 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+    min-width: 100px;
+    height: 45px;
+    line-height: 45px;
+}
+.discount-page-button {
+    cursor: pointer;
+    background-color: #59c300;
+    color: #fff;
+}
+.discount-page-discount-value, .discount-page-code {
+    background-color: #dadada;
+}
+.discount-page-error {
+    background-color: #ffb2b2;
+    display: none;
+}
+.discount-page-message-block {
+    margin-right: 20px;
+    float: left;
+}
+.discount-page-clearfix {
+    clear: both;
+}
+.check-discount-input {
+    border-radius: 5px;
+    padding: 0 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+    min-width: 100px;
+    height: 45px;
+    line-height: 45px;
+    border: solid 2px #aaa;
+
+}
+.check-discount-value-block {
+    display: none;
+}
+.overlay-preloader {
+    display:none;
+    position:fixed;
+    z-index: 2999;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background:#000;
+    opacity:0.5;
+  }
